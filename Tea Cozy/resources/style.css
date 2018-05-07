@@ -1,0 +1,151 @@
+/* BODY & HEADER */
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  height: 100%;
+  background: black;
+  opacity: .9;
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding: 0;
+  height: 69px;
+  border-bottom: 1px solid #fff;
+  position: fixed;
+  z-index: 1;
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+header nav ul li {
+  display: inline-flex;
+  padding: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+}
+
+header img {
+  padding: 0;
+  margin-left: 10px;
+  height: 50px;
+}
+
+
+header nav ul {
+  margin-right: 10px;
+}
+
+/* OUR MISSON */
+.ourmission {
+  height: 700px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background: url("../resources/images/img-mission-background.jpg");
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.center-text {
+  width: 100%;
+  background: #000;
+  align-items: center;
+}
+/* TEA OF THE MONTH*/
+.teaofthemonth {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.teaofthemonth header {
+  padding: 0;
+}
+
+/* STORE ITEMS */
+.items {
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 300px;
+  height: 300px;
+  padding: 15px;
+}
+
+.item img {
+  width: 300px;
+  height: 200px;
+  margin: 10;
+}
+
+.info {
+  min-height: 500px;
+  min-width: 1200px;
+  margin: 0px auto;
+  text-align: center;
+  background: url(../resources/images/img-locations-background.jpg) no-repeat center;
+}
+
+/* STORES */
+.storelocations {
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+}
+
+.storelocation {
+  padding: 15px;
+  background: #000;
+  color: #fff;
+  flex-basis: 300px;
+  margin: 0px 20px;
+}
+
+/* CONTACT INFO */
+.contact {
+  height: 200px;
+
+}
+
+.contact h2 a {
+  display: inline-block;
+  font-size: 3rem;
+  margin: 0;
+  margin-top: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact h5 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+  text-align: left;
+  min-height: 40px;
+}
+
+footer h4 {
+  color: #fff;
+  font-size: 15px;
+  margin-left: 20px;
+}
